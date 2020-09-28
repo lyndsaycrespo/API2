@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Search</title>
+    <link rel="stylesheet" href="./plants.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
+</head>
+
+<body>
+
+    <div id="getPlants">
+        <img id="watercolorFlowers" src="assets/watercolorFlowers2.png" alt='Watercolor Flowers'>
+        <h1 id = "titleText">Search for a plant!</h1>
+        <input type="text" id="searchBar">
+        <button id="submitButton">Submit</button>
+    </div>
+
+    <section>
+        <main>
+            <div class = "container"> 
+            <div class = "row row-cols-4 row-cols-md-3" id = "card-grid"></div> 
+            </div>
+        </main>
+        <nav style = 'display:none;'>
+            <button class="prevButton">Previous Page</button>
+            <button class="nextButton">Next Page</button>
+        </nav>
+    </section>
+
+    <script src="./plants.js"></script>
+</body>
+
+</html>
